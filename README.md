@@ -12,7 +12,8 @@ En este programa trabajaremos con recetas de cocina que involucran ingredientes 
 
 El calculo de costo total es el siguiente:
 
-Costo insumos = Sumatoria de costo unitario de los insumos
+Costo insumos = Sumatoria de costo unitario de los insumos,
+
 Costo equipamiento = Sumatoria de tiempo de uso x costo/hora del equipo para todos los pasos de la receta
 Costo total = costo insumos + costo equipamiento
 
