@@ -14,7 +14,8 @@ El calculo de costo total es el siguiente:
 
 Costo insumos = Sumatoria de costo unitario de los insumos,
 
-Costo equipamiento = Sumatoria de tiempo de uso x costo/hora del equipo para todos los pasos de la receta
+Costo equipamiento = Sumatoria de tiempo de uso x costo/hora del equipo para todos los pasos de la receta,
+
 Costo total = costo insumos + costo equipamiento
 
 ➡️ **¿Qué patrón o principio usan para asignar esta responsabilidad?**
