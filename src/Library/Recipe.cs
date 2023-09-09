@@ -30,9 +30,14 @@ namespace Full_GRASP_And_SOLID.Library
             Console.WriteLine($"Receta de {this.FinalProduct.Description}:");
             foreach (Step step in this.steps)
             {
-                Console.WriteLine($"{step.Quantity} de '{step.Input.Description}' " +
-                    $"usando '{step.Equipment.Description}' durante {step.Time}");
+                Console.WriteLine($"{step.Quantity} de {step.Input.Description} " +
+                    $"usando {step.Equipment.Description} durante {step.Time} horas");
+
             }
+            ProductionCost FinalProduct = new ProductionCost();
+            FinalProduct.Recipe = this.steps.ToArray(typeof(Step)) as Step[];
+            double ProductionCost = FinalProduct.GetProductionCost();
+            Console.WriteLine($"Costo total de producción: {ProductionCost}");
         }
     }
 }
